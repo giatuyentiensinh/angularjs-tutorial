@@ -1,0 +1,26 @@
+<nav class="navbar navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			<a href="#" class="navbar-brand">Tuyen-ng</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="navbar-nav nav navbar-right">
+				<li><a href="#main/home">Home</a></li>
+				<li><a href="#main/about">About</a></li>
+				<li><a href="#main/contact">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<div ui-view="leftMenu"></div>
+		</div>
+
+		<div class="col-md-8">
+			<div ui-view="main"></div>
+		</div>
+	</div>
+</div>
